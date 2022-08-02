@@ -10,12 +10,9 @@ import lombok.extern.slf4j.Slf4j;
 import okhttp3.Response;
 
 import java.io.IOException;
-
-
 /**
- * @description 设备服务
- * @author auto create
- * @date 2022/7/12 16:22
+ * description 设备服务
+ * author auto create
  */
 
 @Slf4j
@@ -29,8 +26,7 @@ public class DeviceApiService{
 
     /**
      * 设备列表 demo
-     *
-     * @return
+     * @return null
      */
     public QueryDeviceResponse queryDevice(){
         QueryDeviceRequest queryDeviceRequest = new QueryDeviceRequest();
@@ -48,8 +44,7 @@ public class DeviceApiService{
 
     /**
      * 设备详情demo
-     *
-     * @return
+     * @return null
      */
     public QueryDeviceDetailResponse queryDeviceDetail(){
         QueryDeviceRequest queryDeviceRequest = new QueryDeviceRequest();

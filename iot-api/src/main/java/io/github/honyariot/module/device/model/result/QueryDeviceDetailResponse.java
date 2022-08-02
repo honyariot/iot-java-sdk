@@ -3,9 +3,8 @@ package io.github.honyariot.module.device.model.result;
 import lombok.Data;
 
 /**
- * @description: 设备详情返回值
- * @author: auto create
- * @date: 2022/8/1 16:17
+ * description: 设备详情返回值
+ * author: auto create
  */
 
 @Data

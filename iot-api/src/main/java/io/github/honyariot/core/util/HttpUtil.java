@@ -6,11 +6,9 @@ import okhttp3.*;
 import java.io.IOException;
 
 /**
- * @description okhttp请求基础工具
- * @author auto create
- * @date 2022/7/12 18:02
+ * description okhttp请求基础工具
+ * author auto create
  */
-
 @Slf4j
 public class HttpUtil {
 
@@ -37,9 +35,9 @@ public class HttpUtil {
 
     /**
      * post请求封装
-     *
-     * @param object
-     * @return
+     * param object
+     * param action
+     * @return null
      */
     public  Response post(Object object,String action){
         try{

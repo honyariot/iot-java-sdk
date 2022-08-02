@@ -1,9 +1,8 @@
 package io.github.honyariot.module.device.transform;
 
 /**
- * @description: 设备相关ACTION
- * @author: auto create
- * @date: 2022/8/1 14:32
+ * description 设备相关ACTION
+ * author auto create
  */
 public class DeviceAction {
 
